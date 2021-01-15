@@ -1,0 +1,126 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	/* Top 3 for sticky Footer */
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	background-color: #fffbc6;
+	font-family: "Open Sans";
+	color: #555555;
+}
+
+h1 {
+	text-align: center;
+	color: #e74c3a;
+	font-family: "Cabin Sketch";
+	margin: 25px 0 0;
+}
+
+#main-img {
+	text-align: center;
+}
+
+header img {
+	display: inline-block;
+	margin: auto;
+	width: 80%;
+	max-width: 300px;
+	height: auto;
+}
+
+/* Enter new burger section */
+
+div.form-wrapper {
+	background-color: #ff7b06;
+	margin: 50px;
+	padding: 25px;
+}
+
+form label {
+	font-size: larger;
+	color: #fffbc6;
+	padding: 20px 0;
+}
+
+form textarea {
+	width: 50%;
+	margin: 8px 0;
+	font-size: large;
+}
+
+form button.order-btn {
+	display: flex;
+	background-color: #fffbc6;
+	color: #ff7b06;
+}
+
+/* Burgers to devour section */
+
+h4 {
+	text-align: center;
+	font-weight: 500;
+}
+
+h4 i.utensil {
+	color: #20cbcb;
+}
+
+h4 i.smile {
+	color: #e74c3a;
+}
+
+div .list {
+	padding: 25px;
+}
+
+ul {
+	list-style: none;
+	margin-left: 5px;
+	padding: 5px;
+}
+
+ul li {
+	margin: 8px auto;
+	padding: 25px 0px 25px 35px;
+	font-size: large;
+}
+
+ul.to-devour li {
+	background-color: #f2c400;
+}
+
+button.devour-btn {
+	border: none;
+}
+
+button.devour-btn img {
+	display: inline-block;
+	margin-top: -7px;
+}
+
+/* Burger devoured section */
+
+ul.devoured li {
+	background-color: #fded47;
+	text-align: center;
+}
+
+/* Sticky Footer Styling */
+main {
+	flex: 1 0 auto;
+}
+
+p.copyright {
+	color: #888;
+	text-align: center;
+}
+
+p.copyright a {
+	text-decoration: none;
+	color: #e74c3a;
+}
